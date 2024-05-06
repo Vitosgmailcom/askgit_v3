@@ -1,14 +1,12 @@
 version: "3.8"
 
 services:
-  tests:
+  test:
     image: python:3.12.0a4-alpine3.17
     build:
       context: .
       dockerfile: Dockerfile
-
     volumes:
       - ./:/automation
-# hek
 
     command: /bin/sh -c "ls -la && pytest -m healthcheck --alluredir=allure-results"

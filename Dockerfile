@@ -13,6 +13,5 @@ COPY ./ /automation
 COPY ./requirements.txt /automation
 
 WORKDIR /automation
+
 RUN pip3 install -r requirements.txt
-
-
