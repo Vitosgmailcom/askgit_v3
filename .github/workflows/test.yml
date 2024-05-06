@@ -17,7 +17,7 @@ jobs:
           path: ./.github/gh-pages
 
       - name: Running docker compose
-        run: docker-compose up tests --exit-code from || true
+        run: docker-compose up --exit-code-from tests || true
 
       - name: Running Allure report
         run: |
