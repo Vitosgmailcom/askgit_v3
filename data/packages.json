@@ -4,12 +4,12 @@
     "name" : "tests.test_healthcheck",
     "children" : [ {
       "name" : "test_healthcheck",
-      "uid" : "c2026e2b9904a6b7",
+      "uid" : "3dbbe22d6a83df54",
       "parentUid" : "d849bd6a1e4335e6c2a594adc6412c75",
       "status" : "passed",
       "time" : {
-        "start" : 1715032422292,
-        "stop" : 1715032422293,
+        "start" : 1715032712161,
+        "stop" : 1715032712162,
         "duration" : 1
       },
       "flaky" : false,

@@ -1,11 +1,11 @@
 {
-  "uid" : "c2026e2b9904a6b7",
+  "uid" : "3dbbe22d6a83df54",
   "name" : "test_healthcheck",
   "fullName" : "tests.test_healthcheck#test_healthcheck",
   "historyId" : "4226976f7b61b2e219bd327dcbcc9b87",
   "time" : {
-    "start" : 1715032422292,
-    "stop" : 1715032422293,
+    "start" : 1715032712161,
+    "stop" : 1715032712162,
     "duration" : 1
   },
   "status" : "passed",
@@ -16,17 +16,17 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "79db5939cb0b7053",
+      "uid" : "523691d3d78b57da",
       "name" : "log",
-      "source" : "79db5939cb0b7053.txt",
+      "source" : "523691d3d78b57da.txt",
       "type" : "text/plain",
       "size" : 50
     } ],
     "parameters" : [ ],
-    "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
     "stepsCount" : 0,
-    "hasContent" : true
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -40,7 +40,7 @@
     "value" : "test_healthcheck"
   }, {
     "name" : "host",
-    "value" : "89d5d9e3c1e2"
+    "value" : "2c82c6e13900"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -65,8 +65,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "c2026e2b9904a6b7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715032422292,
+          "stop" : 1715032422293,
+          "duration" : 1
+        }
+      } ]
+    },
     "tags" : [ "healthcheck" ]
   },
-  "source" : "c2026e2b9904a6b7.json",
+  "source" : "3dbbe22d6a83df54.json",
   "parameterValues" : [ ]
 }
