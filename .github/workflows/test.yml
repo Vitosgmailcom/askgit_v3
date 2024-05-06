@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Checkout gh-pages
-        uses: actions/checkout@3
+        uses: actions/checkout@v3
         with:
           ref: gh-pages
           path: ./.github/gh-pages
