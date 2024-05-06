@@ -1,6 +1,6 @@
 name: Running Health Test in GitHub Actions
 
-on: Push
+on: push
 
 jobs:
   test:
