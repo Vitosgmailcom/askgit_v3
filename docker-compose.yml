@@ -6,7 +6,9 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+
     volumes:
       - ./:/automation
-    command: /bin/sh -c "ls -la & pytest -m healthcheck --alluredir=allure-results"
+
+    command: /bin/sh -c "ls -la && pytest -m healthcheck --alluredir=allure-results"
 
