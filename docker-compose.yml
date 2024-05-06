@@ -9,5 +9,6 @@ services:
 
     volumes:
       - ./:/automation
+# hek
 
-    command: /bin/sh -c "ls -la && pytest -m healthtest --alluredir=allure-results"
+    command: /bin/sh -c "ls -la && pytest -m healthcheck --alluredir=allure-results"
