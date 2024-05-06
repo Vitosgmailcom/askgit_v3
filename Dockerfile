@@ -12,8 +12,10 @@ RUN apk update && \
 
 COPY ./ /automation
 COPY ./setup.py /automation
-
+COPY ./requirements.txt /automation
 WORKDIR /automation
 
-RUN python3 setup.py install && pip3 install chardet
+RUN pip3 install -r requirements.txt
+
+#RUN python3 setup.py install && pip3 install chardet
 
