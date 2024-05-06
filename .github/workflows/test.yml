@@ -21,7 +21,7 @@ jobs:
 
       - name: Running Allure report
         run: |
-          docker-compose run tests /bib/sh -s "allure generate allure-results --clean -o allure-reports"
+          docker-compose run tests /bib/sh -c "allure generate allure-results --clean -o allure-reports"
 
       - name: Deploy gh-pages
         uses: JamesIves/github-pages-deploy-action@4.1.5
