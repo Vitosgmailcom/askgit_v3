@@ -2,13 +2,13 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "test_healthcheck",
-    "uid" : "80c572931a956604",
+    "uid" : "e0efbb5707960965",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1715032888929,
-      "stop" : 1715032888929,
-      "duration" : 0
+      "start" : 1715046077337,
+      "stop" : 1715046077338,
+      "duration" : 1
     },
     "flaky" : false,
     "newFailed" : false,
