@@ -1,11 +1,11 @@
 {
-  "uid" : "e0efbb5707960965",
+  "uid" : "4dcb315aa9944c66",
   "name" : "test_healthcheck",
   "fullName" : "tests.test_healthcheck#test_healthcheck",
   "historyId" : "4226976f7b61b2e219bd327dcbcc9b87",
   "time" : {
-    "start" : 1715046077337,
-    "stop" : 1715046077338,
+    "start" : 1715052468521,
+    "stop" : 1715052468522,
     "duration" : 1
   },
   "status" : "passed",
@@ -16,9 +16,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "78617bcab7219798",
+      "uid" : "49f2edfe76448cbf",
       "name" : "log",
-      "source" : "78617bcab7219798.txt",
+      "source" : "49f2edfe76448cbf.txt",
       "type" : "text/plain",
       "size" : 50
     } ],
@@ -40,7 +40,7 @@
     "value" : "test_healthcheck"
   }, {
     "name" : "host",
-    "value" : "39d0b373c2f5"
+    "value" : "0b45af200a1f"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -70,11 +70,19 @@
         "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 4,
+        "passed" : 5,
         "unknown" : 0,
-        "total" : 4
+        "total" : 5
       },
       "items" : [ {
+        "uid" : "e0efbb5707960965",
+        "status" : "passed",
+        "time" : {
+          "start" : 1715046077337,
+          "stop" : 1715046077338,
+          "duration" : 1
+        }
+      }, {
         "uid" : "80c572931a956604",
         "status" : "passed",
         "time" : {
@@ -102,6 +110,6 @@
     },
     "tags" : [ "healthcheck" ]
   },
-  "source" : "e0efbb5707960965.json",
+  "source" : "4dcb315aa9944c66.json",
   "parameterValues" : [ ]
 }
