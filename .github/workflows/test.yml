@@ -1,11 +1,10 @@
-name: Running test
+name: Let's run test
 
 on: push
 
 jobs:
-  healthcheck:
+  testing:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -19,12 +18,12 @@ jobs:
       - name: Run docker compose
         run: docker-compose up --exit-code-from test || true
 
-      - name: Copy gh-pages history
+      - name: Copy history from gh-pages
         run: |
           sudo mkdir -p allure-results/history
           sudo cp -R ./.github/gh-pages/history/* allure-results/history/
 
-      - name: Run Allure reports
+      - name: Run Allure report
         run: docker-compose run test /bin/sh -c "allure generate allure-results --clean -o allure-reports"
 
       - name: Copy to gh-pages
