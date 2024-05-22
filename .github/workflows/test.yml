@@ -27,7 +27,8 @@ jobs:
       - name: Run Allure report
         run: docker-compose run test /bin/sh -c "allure generate allure-results --clean -o allure-reports"
 
-      - name: Copy to gh-poages
+
+      - name: Copy to gh-pages
         run: |
           sudo cp -R allure-results/history/* ./.github/gh-pages/history/
 
