@@ -1,12 +1,12 @@
 {
-  "uid" : "87f73dc6585d3d11",
+  "uid" : "a2b43f96daea890",
   "name" : "test_healthcheck",
   "fullName" : "test.test_healthcheck.Test_helathcheck#test_healthcheck",
   "historyId" : "944d90979eed4b2a3abe72b352f7a8e2",
   "time" : {
-    "start" : 1716342818458,
-    "stop" : 1716342818459,
-    "duration" : 1
+    "start" : 1716343252234,
+    "stop" : 1716343252234,
+    "duration" : 0
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,8 +14,8 @@
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1716342818458,
-      "stop" : 1716342818458,
+      "start" : 1716343252233,
+      "stop" : 1716343252233,
       "duration" : 0
     },
     "status" : "passed",
@@ -31,9 +31,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "b3e1e3c18ce65ad7",
+      "uid" : "c95388bfe02aefb0",
       "name" : "log",
-      "source" : "b3e1e3c18ce65ad7.txt",
+      "source" : "c95388bfe02aefb0.txt",
       "type" : "text/plain",
       "size" : 51
     } ],
@@ -58,7 +58,7 @@
     "value" : "Test_helathcheck"
   }, {
     "name" : "host",
-    "value" : "2147f430be04"
+    "value" : "490112c04f82"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -83,8 +83,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "87f73dc6585d3d11",
+        "status" : "passed",
+        "time" : {
+          "start" : 1716342818458,
+          "stop" : 1716342818459,
+          "duration" : 1
+        }
+      } ]
+    },
     "tags" : [ "healthcheck" ]
   },
-  "source" : "87f73dc6585d3d11.json",
+  "source" : "a2b43f96daea890.json",
   "parameterValues" : [ ]
 }
