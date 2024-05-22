@@ -1,0 +1,90 @@
+{
+  "uid" : "87f73dc6585d3d11",
+  "name" : "test_healthcheck",
+  "fullName" : "test.test_healthcheck.Test_helathcheck#test_healthcheck",
+  "historyId" : "944d90979eed4b2a3abe72b352f7a8e2",
+  "time" : {
+    "start" : 1716342818458,
+    "stop" : 1716342818459,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1716342818458,
+      "stop" : 1716342818458,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b3e1e3c18ce65ad7",
+      "name" : "log",
+      "source" : "b3e1e3c18ce65ad7.txt",
+      "type" : "text/plain",
+      "size" : 51
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "healthcheck"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test"
+  }, {
+    "name" : "suite",
+    "value" : "test_healthcheck"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_helathcheck"
+  }, {
+    "name" : "host",
+    "value" : "2147f430be04"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test.test_healthcheck"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "healthcheck" ]
+  },
+  "source" : "87f73dc6585d3d11.json",
+  "parameterValues" : [ ]
+}

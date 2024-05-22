@@ -1,5 +1,30 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "test",
+    "children" : [ {
+      "name" : "test_healthcheck",
+      "children" : [ {
+        "name" : "Test_helathcheck",
+        "children" : [ {
+          "name" : "test_healthcheck",
+          "uid" : "87f73dc6585d3d11",
+          "parentUid" : "69c3bd5eced6ea0db927c61ac9c5d727",
+          "status" : "passed",
+          "time" : {
+            "start" : 1716342818458,
+            "stop" : 1716342818459,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "69c3bd5eced6ea0db927c61ac9c5d727"
+      } ],
+      "uid" : "da0b5c96b7491519ded583856318d35d"
+    } ],
+    "uid" : "ff2b04dbb9c449a4d40723f51d841925"
+  } ],
   "name" : "suites"
 }
