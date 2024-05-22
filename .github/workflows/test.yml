@@ -1,10 +1,11 @@
-name: Let's run test
+name: Run healthcheck
 
 on: push
 
 jobs:
-  testing:
+  test:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -26,7 +27,7 @@ jobs:
       - name: Run Allure report
         run: docker-compose run test /bin/sh -c "allure generate allure-results --clean -o allure-reports"
 
-      - name: Copy to gh-pages
+      - mame: Copy to gh-poages
         run: |
           sudo cp -R allure-results/history/* ./.github/gh-pages/history/
 
@@ -36,3 +37,4 @@ jobs:
           token: ${{ secrets.CI_TOKEN }}
           branch: gh-pages
           folder: allure-reports
+

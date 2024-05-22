@@ -3,3 +3,5 @@ dist
 UNKNOWN.egg-info
 venv_v3
 
+.env
+
