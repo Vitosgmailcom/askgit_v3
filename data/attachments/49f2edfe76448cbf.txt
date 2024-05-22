@@ -1,1 +1,0 @@
-DEBUG    root:test_healthcheck.py:7 Hello world!!!
